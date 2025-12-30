@@ -5,25 +5,40 @@ export default function Portfolio() {
         <h2 className="fw-bold mb-4" data-aos="fade-up">
           Portfolio
         </h2>
-        <p>Showcase your best works here (Logos, Posters, Websites)</p>
+        <p>
+          {" "}
+          <i>
+            Explore my portfolio featuring professional graphic designs and web
+            projects. From branding materials like logos, posters, flyers, and
+            certificates to modern responsive websites, these works highlight my
+            creativity and skill.
+          </i>
+        </p>
         <div className="div-contain">
           <div className="contain">
+            <img src="/menu card mano chicken corner.png" alt="card1" />
+            {/* <div className="overlay">
+              <h3>Card Name 1</h3>
+            </div> */}
+          </div>
+          <div className="contain">
             <img src="/Mano Chicken Corner Banner.png" alt="card1" />
-            <div className="overlay">
+            {/* <div className="overlay">
               <h3>Card Name 1</h3>
-            </div>{" "}
+            </div> */}
           </div>
           <div className="contain">
-            <img src="/menu card mano chicken corner.png" alt="card1" />{" "}
-            <div className="overlay">
+            <img src="/certificate.jpg" alt="card1" />
+            {/* <div className="overlay">
               <h3>Card Name 1</h3>
-            </div>
+            </div> */}
           </div>
+
           <div className="contain">
-            <img src="/portfolio screenshot.png" alt="card1" />{" "}
-            <div className="overlay">
+            <img src="/portfolio screenshot.png" alt="card1" />
+            {/* <div className="overlay">
               <h3>Card Name 1</h3>
-            </div>
+            </div> */}
           </div>
           <div className="contain">
             <img src="/react weather website screenshot.png" alt="card1" />
@@ -32,31 +47,14 @@ export default function Portfolio() {
             </div>{" "} */}
           </div>
           <div className="contain">
-            <img src="/flex.png" alt="card1" />{" "}
+            <img src="/flex.png" alt="card1" />
             {/* <div className="overlay">
               <h3>Card Name 1</h3>
             </div> */}
           </div>
-          <div className="contain">
-            <img src="/poster.png" alt="card1" />{" "}
-            {/* <div className="overlay">
-              <h3>Card Name 1</h3>
-            </div> */}
-          </div>
+
           <div className="contain">
             <img src="/flex 2.png" alt="card1" />
-            {/* <div className="overlay">
-              <h3>Card Name 1</h3>
-            </div> */}
-          </div>
-          <div className="contain">
-            <img src="/poster3.png" alt="card1" />
-            {/* <div className="overlay">
-              <h3>Card Name 1</h3>
-            </div> */}
-          </div>
-          <div className="contain">
-            <img src="/poster4.png" alt="card1" />
             {/* <div className="overlay">
               <h3>Card Name 1</h3>
             </div> */}
@@ -68,13 +66,25 @@ export default function Portfolio() {
             </div> */}
           </div>
           <div className="contain">
-            <img src="/poster 2.png" alt="card1" />
+            <img src="/poster3.png" alt="card1" />
             {/* <div className="overlay">
               <h3>Card Name 1</h3>
             </div> */}
           </div>
           <div className="contain">
-            <img src="/certificate.jpg" alt="card1" />
+            <img src="/poster.png" alt="card1" />
+            {/* <div className="overlay">
+              <h3>Card Name 1</h3>
+            </div> */}
+          </div>
+          <div className="contain">
+            <img src="/poster4.png" alt="card1" />
+            {/* <div className="overlay">
+              <h3>Card Name 1</h3>
+            </div> */}
+          </div>
+          <div className="contain">
+            <img src="/poster 2.png" alt="card1" />
             {/* <div className="overlay">
               <h3>Card Name 1</h3>
             </div> */}
