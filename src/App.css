@@ -59,3 +59,8 @@ overflow-x: scroll;
 .contain :hover .overlay{
   opacity:1;
 }
+
+.contact{
+  background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.872)),
+  url("/public/dmcreativestudio\ logo.png") center/cover;
+}
