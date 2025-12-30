@@ -1,0 +1,66 @@
+.hero{
+  background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+  url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f") center/cover;
+}
+h2{
+  letter-spacing: 1px;
+}
+
+.card{
+  border-radius: 15px;
+  transition: .3s;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+
+.div-contain{
+
+display: flex;
+flex-direction: row;
+width: 100%;
+flex-wrap: nowrap;
+overflow-x: scroll;
+
+}
+
+.contain{
+
+  width: 250px;
+    aspect-ratio: 1 / 1; 
+  /* height: 100%; */
+  /* background-color: brown; */
+  /* color: white; */
+  margin:0px 10px;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+
+}
+.contain img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+   /* object-position: center; */
+}
+
+.overlay{
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,0.7);
+  opacity:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition:0.3s;
+}
+
+.contain :hover .overlay{
+  opacity:1;
+}
+
+.contact{
+  background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.872)),
+  url("/public/dmcreativestudio\ logo.png") center/cover;
+}
